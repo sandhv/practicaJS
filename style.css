@@ -1,0 +1,42 @@
+body,html {
+    margin: 0;
+    height: 100%;
+    background-color: #323232;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 44px;
+    align-self: center;
+    justify-content: center;
+    margin-left: 35px;
+    
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border-radius: 50px;
+    display: flex;
+}
+
+@keyframes jump {
+    20%{
+        transform: translateY(-10px) rotateY(360deg);
+    }
+}
+
+.jump {
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    animation-delay: calc(var(--i)*0.1s);
+}
