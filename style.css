@@ -1,7 +1,7 @@
 body,html {
     margin: 0;
     height: 100%;
-    background-color: #323232;
+    background: linear-gradient(#e66465, #9198e5); 
     color: white;
     display: flex;
     justify-content: center;
